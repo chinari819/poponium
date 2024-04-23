@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="grid grid-cols-8">
+      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 ">
         {img.map((imgSrc, index) => (
           <div key={index}>
             <a href="https://youtu.be/e6DFAePfAIc?si=ClFpB4SCP_nhFAqB" target="_blank">
