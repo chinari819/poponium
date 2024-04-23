@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     site: "@chinari819",
     title: "ポポニウム",
     description: "ポポニウム",
-    images: "img/ieiri.jpg",
+    images: "https://github.com/chinari819/poponium/blob/main/public/img/ieiri.jpg",
   },
 };
 
