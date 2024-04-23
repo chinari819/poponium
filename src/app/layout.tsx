@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@chinari819",
     title: "ポポニウム",
-    description: "ポポニウム",
     images: "https://raw.githubusercontent.com/chinari819/poponium/main/public/img/ieiri.jpg",
   },
 };
