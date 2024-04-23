@@ -23,7 +23,7 @@ export default function Home() {
               <img
                 src={imgSrc}
                 alt="popo"
-                className="h-full w-full transition-transform duration-300 hover:scale-105 hover:rounded-xl"
+                className="h-full w-full transition-transform duration-300 hover:scale-105 hover:rounded-lg"
               />
             </a>
           </div>
