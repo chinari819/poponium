@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,6 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@chinari819" />
+        <meta name="twitter:title" content="ポポニウム" />
+        <meta name="twitter:description" content="ポポニウム" />
+        <meta name="twitter:image" content="img/ieiri.jpg" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
